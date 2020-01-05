@@ -19,10 +19,13 @@ Bite 1. Sum n numbers
 
 import sys
 
+
+
 if len(sys.argv) == 1:
     n=100
 else:
     n=int(sys.argv[1])
+
 
 def lstgen(n):
     lst=[]
