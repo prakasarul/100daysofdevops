@@ -1,0 +1,38 @@
+{
+    "Records": [
+        {
+            "eventVersion": "2.1",
+            "eventSource": "aws:s3",
+            "awsRegion": "ap-south-1",
+            "eventTime": "2020-01-10T04:47:49.042Z",
+            "eventName": "ObjectCreated:Put",
+            "userIdentity": {
+                "principalId": "A991Y9XPOVBH0"
+            },
+            "requestParameters": {
+                "sourceIPAddress": "115.97.59.198"
+            },
+            "responseElements": {
+                "x-amz-request-id": "4B22974F1B357655",
+                "x-amz-id-2": "kH9tSWOdmGU4GeaEmcHuERMjiv/axnsvgJqNTsdloY0diygBltsluYiWnjkl2pz1KNghmsMdb8U="
+            },
+            "s3": {
+                "s3SchemaVersion": "1.0",
+                "configurationId": "33aa1591-dc62-4ce8-82b1-d9a15089e4ee",
+                "bucket": {
+                    "name": "arvel99221",
+                    "ownerIdentity": {
+                        "principalId": "A991Y9XPOVBH0"
+                    },
+                    "arn": "arn:aws:s3:::arvel99221"
+                },
+                "object": {
+                    "key": "test.py",
+                    "size": 1012,
+                    "eTag": "43b4c2f19322750faac0213dd1897c6a",
+                    "sequencer": "005E1801F502A10824"
+                }
+            }
+        }
+    ]
+}

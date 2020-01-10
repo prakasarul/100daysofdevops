@@ -1,0 +1,36 @@
+{
+    "Records": [
+        {
+            "eventVersion": "2.1",
+            "eventSource": "aws:s3",
+            "awsRegion": "ap-south-1",
+            "eventTime": "2020-01-10T04:49:48.801Z",
+            "eventName": "ObjectRemoved:Delete",
+            "userIdentity": {
+                "principalId": "A991Y9XPOVBH0"
+            },
+            "requestParameters": {
+                "sourceIPAddress": "115.97.59.198"
+            },
+            "responseElements": {
+                "x-amz-request-id": "9FD6B3639AEA18BC",
+                "x-amz-id-2": "hIRvVxvhW8o34aX1sVyKKdsM0bGlt8qHb2C/xRyvEgpnbm7UZdENYf6komTG+Jwima/UwI58kqo="
+            },
+            "s3": {
+                "s3SchemaVersion": "1.0",
+                "configurationId": "33aa1591-dc62-4ce8-82b1-d9a15089e4ee",
+                "bucket": {
+                    "name": "arvel99221",
+                    "ownerIdentity": {
+                        "principalId": "A991Y9XPOVBH0"
+                    },
+                    "arn": "arn:aws:s3:::arvel99221"
+                },
+                "object": {
+                    "key": "test.py",
+                    "sequencer": "005E18026CC508B190"
+                }
+            }
+        }
+    ]
+}
